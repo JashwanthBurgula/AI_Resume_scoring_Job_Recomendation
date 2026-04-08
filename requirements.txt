@@ -1,0 +1,19 @@
+# ─── Core ───────────────────────────────────────────────
+numpy>=1.24
+scikit-learn>=1.3
+PyPDF2>=3.0
+joblib>=1.3
+requests>=2.31
+
+# ─── Streamlit web UI ───────────────────────────────────
+streamlit>=1.35
+plotly>=5.18
+pandas>=2.0
+
+# ─── Semantic search / job recommender ─────────────────
+sentence-transformers>=2.6
+
+# ─── Optional: T5 phrase rewriter ───────────────────────
+# Uncomment if you have a local T5 model:
+# torch>=2.0
+# transformers>=4.38
